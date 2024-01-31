@@ -11,7 +11,8 @@
     --clr-background: #e3f2fd;
     --clr-background-board: #212837; 
     --clr-food: #ff003d;
-    --clr-snake: #60cbff;
+    --clr-snake: #0cd850;
+    --clr-borders: #073fda;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
     overflow: hidden;
     flex-direction: column;
     border-radius: 5px;
+    border: 5px solid var(--clr-borders);
     background: var(--clr-scenery);
 }
 
