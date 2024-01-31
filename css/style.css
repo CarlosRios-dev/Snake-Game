@@ -7,8 +7,8 @@
 
 :root {
     --clr-scenery: #293447;
-    --clr-text: #b8c6dc;
-    --clr-background: #e3f2fd;
+    --clr-text: #99baf0;
+    --clr-background: #131b21;
     --clr-background-board: #212837; 
     --clr-food: #ff003d;
     --clr-snake: #0cd850;
@@ -41,6 +41,7 @@ body {
     padding: 20px 27px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 5px solid var(--clr-borders);
 }
 
 .play-board {
